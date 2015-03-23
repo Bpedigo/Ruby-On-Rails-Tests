@@ -1,8 +1,19 @@
 
-<h1>This is going to be the home page</h1>
 
-<p>usefull links: </p>
 
-<p>For usefull notes on how to use rails commands</p><%= link_to 'how to', home_HowTo_path %>
+<div class = "jumbotron">
+    
+     <h1>Welcome to My 1st App</h1>
+
+     <p>learning ruby on rails</p>
+
+    <%= link_to 'About us', home_about_path, class: 'btn btn-default' %>
+    <%= link_to 'How To', home_HowTo_path, class: 'btn btn-primary' %>
+
+
+     <!-- <p>For usefull notes on how to use rails commands</p><%= link_to 'how to', home_HowTo_path %>  -->
+    
+    
+</div>
 
 <%= link_to 'About Us', home_about_path %>

@@ -1,0 +1,11 @@
+##### Important Brian This is how you push to both git-hub and to Heroku 
+type the following into the command prompt!
+
+
+git add .
+git commit -am "and your comment here!"
+git push
+git push heroku master
+
+
+after you do the above your website application will be saved and upadated!!!

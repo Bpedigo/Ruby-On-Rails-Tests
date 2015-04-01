@@ -8,4 +8,9 @@ git push
 git push heroku master
 
 
+to add the updates to data base run the following:
+
+rake db:migrate
+heroku run rake db:migrate
+
 after you do the above your website application will be saved and upadated!!!
